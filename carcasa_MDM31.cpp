@@ -48,7 +48,7 @@ int main()
         IndentWriter writer;
         writer << carcasaMDM31;
 
-    ofstream file("carcasaMDM31.scad");
+    ofstream file("carcasa_MDM31.scad");
     if (file){
         //generate OpenScad code of the translated cube and save it into file;
         file << writer;
